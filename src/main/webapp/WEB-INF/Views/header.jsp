@@ -90,8 +90,9 @@
 			<button type="button" class="close" data-dismiss="modal">&times;</button>
 		</div>
 		<div class="modal-body">
-				<input type="text" name="email" placeholder="email" size="30"><br><br>
-				<input type="password" name="password" placeholder="password" size="30"><br><br>
+		${errorMessage}<br>
+				<input type="text" name="email" placeholder="email" size="30" required><br><br>
+				<input type="password" name="password" placeholder="password" size="30" required><br><br>
 		</div>
 		<div class="modal-footer">
 			<button type="button" data-dismiss="modal">Cancel</button>

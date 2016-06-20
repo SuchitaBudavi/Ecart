@@ -1,13 +1,12 @@
 package com.ecart.dao;
 
-import com.ecart.model.User;
-
 public interface UserDao {
 	
 	//get user by id
-	public User getUserbyId(int ID);
+	//public User getUserbyId(int ID);
 	
 	//add user
 	//update userdata
 	//deactivate user
+	public boolean validateUser(String email, String password);
 }
